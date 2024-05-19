@@ -1,0 +1,635 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+header {
+    margin-left: 144px;
+}
+#p1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #5863E3;
+    margin: 57px auto 7px;
+}
+#heading1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #000000;
+}
+form > textarea {
+    margin-top: 30px;
+    width: 620px;
+    height: 290px;
+    border: 2px solid rgba(128, 128, 128, 0.589);
+    padding: 10px;
+}
+form > #Subject {
+    border: 2px solid gray;
+    position: relative;
+    left: 20px;
+    bottom: 280px;
+    width: 370px;
+    height: 35px;
+    padding: 10px;
+    background-color: #F8F8F8;
+}
+form > #fullname {
+    border: 2px solid gray;
+    width: 370px;
+    height: 35px;
+    padding: 10px;
+    background-color: #F8F8F8;
+    position: relative;
+    left: 668px;
+    bottom: 256px;
+}
+form > #email {
+    width: 370px;
+    height: 35px;
+    padding: 10px;
+    border: 2px solid gray;
+    background-color: #F8F8F8;
+    position: relative;
+    left: 270px;
+    bottom: 168px;
+}
+form > button {
+    font-size: 25px;
+    width: 395px;
+    height: 59px;
+    background-color: #5968F4;
+    color: #FBFBFF;
+    position: relative;
+    right: 128px;
+    bottom: 84px;
+}
+#bigdiv {
+    display: flex;
+    justify-content: space-evenly;
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #5968F4;
+    border-radius: 50%;
+}
+.fa.fa-envelope {
+    position: absolute;
+    left: 220px;
+    bottom: -57px;
+    font-size: 50px;
+}
+#pirveli {
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #4E4D54;
+    left: 25px;
+    top: 16px;
+}
+#p2 {
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #99999A;
+    top: 25px;
+    left: -30px;
+}
+#p3 {
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #99999A;
+    top: 30px;
+    left: -45px;
+}
+.fa.fa-phone {
+    position: absolute;
+    left: 630px;
+    bottom: -58px;
+    font-size: 50px;
+}
+#meore {
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #4E4D54;
+    left: 20px;
+    top: 15px;
+}
+#p4 {
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #99999A;
+    top: 25px;
+    left: -10px;
+}
+#p5 {
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #99999A;
+    top: 30px;
+    left: -10px;
+}
+.fa.fa-map-marker {
+    position: absolute;
+    font-size: 50px;
+    right: 307px;
+    bottom: -56px;
+}
+#mesame {
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #4E4D54;
+    left: 15px;
+    top: 15px;
+}
+#p6 {
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #99999A;
+    top: 25px;
+    right: 20px;
+}
+#p7 {
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #99999A;
+    top: 30px;
+    right: 30px;
+}
+#div2 {
+    margin-right: 64px;
+}
+#p8 {
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #5863E3;
+    margin-left: 140px;
+}
+#heading2 {
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #000000;
+    margin-left: 138px;
+}
+#heading3 {
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #000000;
+    margin-left: 138px;
+}
+#divbigger {
+    display: flex;
+    justify-content: space-around;
+}
+footer {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+}
+#div4 {
+    margin-left: 144px;
+    
+}
+#heading4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    color: #FFFFFF;
+    position: relative;
+    top: 63px;
+}
+#div4 > p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: #99999A;
+    position: relative;
+    top: 116px;
+}
+.fa.fa-facebook {
+    font-size: 40px;
+    color: blue;
+    position: relative;
+    top: 150px;
+}
+.fa.fa-twitter {
+    font-size: 40px;
+    color: cyan;
+    position: relative;
+    top: 150px;
+    left: 15px;
+}
+.fa.fa-google-plus {
+    font-size: 40px;
+    color: rgba(148, 43, 43, 0.877);
+    position: relative;
+    top: 150px;
+    left: 25px;
+}
+#span1 {
+    font-family: "Roboto", sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 21px;
+    position: relative;
+    left: 620px;
+    bottom: 85px;
+}
+#div5 {
+    display: flex;
+}
+#div6 {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+#div6 > a {
+    text-decoration: none;
+    color: #5863E3;
+    font-weight: 400;
+    font-size: 17px;
+    position: relative;
+    left: 512px;
+    bottom: 10px;
+    margin-bottom: 9px;
+}
+#span2 {
+    font-family: "Roboto", sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 21px;
+    position: relative;
+    left: 890px;
+    bottom: 200px;
+}
+#div8 > p {
+    text-decoration: none;
+    color: #5863E3;
+    font-weight: 400;
+    font-size: 17px;
+    position: relative;
+    margin-left: 890px;
+    bottom: 150px;
+    margin-bottom: 9px;
+}
+#span3 {
+    font-family: "Roboto", sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 21px;
+    position: relative;
+    left: 1120px;
+    bottom: 338px;
+}
+#div10 {
+    display: flex;
+    flex-direction: column;
+    width: 0;
+}
+#div10 > i {
+    color: #5863E3;
+    font-size: 20px;
+    position: relative;
+    left: 1122px;
+    bottom: 287px;
+    margin-bottom: 15px;
+}
+#div11 {
+    display: flex;
+    flex-direction: column;
+}
+#div11 > span {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 17px;
+    position: relative;
+    margin-left: 1160px;
+    bottom: 390px;
+    margin-bottom: 15px;
+}
+@media only screen and (min-width: 1519px) {
+    .fa.fa-envelope {
+        position: relative;
+        left: 25px;
+        bottom: 75px;
+    }
+    .fa.fa-phone {
+        position: relative;
+        left: 30px;
+        bottom: 70px;
+    }
+    .fa.fa-map-marker {
+        position: relative;
+        left: 35px;
+        bottom: 75px;
+    }
+    #pirveli {
+        position: relative;
+        top: -35px;
+    }
+    #p2 {
+        position: relative;
+        top: -30px;
+    }
+    #p3 {
+        position: relative;
+        top: -22px;
+    }
+    #meore {
+        position: relative;
+        top: -40px;
+    }
+    #p4 {
+        position: relative;
+        top: -30px;
+    }
+    #p5 {
+        position: relative;
+        top: -22px;
+    }
+    #mesame {
+        position: relative;
+        top: -40px;
+    }
+    #p6 {
+        position: relative;
+        top: -30px;
+    }
+    #p7 {
+        position: relative;
+        top: -22px;
+    }
+
+}
+@media only screen and (max-width: 1518px) {
+    .fa.fa-envelope {
+        position: relative;
+        left: 25px;
+        bottom: 75px;
+    }
+    .fa.fa-phone {
+        position: relative;
+        left: 30px;
+        bottom: 70px;
+    }
+    .fa.fa-map-marker {
+        position: relative;
+        left: 35px;
+        bottom: 75px;
+    }
+    #pirveli {
+        position: relative;
+        top: -40px;
+    }
+    #p2 {
+        position: relative;
+        top: -30px;
+    }
+    #p3 {
+        position: relative;
+        top: -22px;
+    }
+    #meore {
+        position: relative;
+        top: -40px;
+    }
+    #p4 {
+        position: relative;
+        top: -30px;
+    }
+    #p5 {
+        position: relative;
+        top: -22px;
+    }
+    #mesame {
+        position: relative;
+        top: -40px;
+    }
+    #p6 {
+        position: relative;
+        top: -30px;
+    }
+    #p7 {
+        position: relative;
+        top: -22px;
+    }
+}
+@media only screen and (min-width: 1707.50px) {
+    form > #fullname {
+        position: relative;
+        left: -377px;
+        bottom: 200px;
+    }
+    form > #email {
+        position: relative;
+        left: 666px;
+        bottom: 180px;
+    }
+    form > button {
+        position: relative;
+        left: 267px;
+    }
+    header {
+        position: relative;
+        left: 122px;
+    }
+    main {
+        position: relative;
+        left: 122px;
+    }
+    #thebiggestdiv {
+        position: relative;
+        left: 80px;
+    }
+}
+@media only screen and (min-width: 1821.33px) {
+    header {
+        position: relative;
+        left: 250px;
+    }
+    main {
+        position: relative;
+        left: 122px;
+    }
+    #bigdiv {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #div1 {
+        margin-left: 150px;
+    }
+    main {
+        margin-left: 130px;
+    }
+} 
+
+@media only screen and (min-width: 2049px) {
+    form > button {
+        position: relative;
+        left: 667px;
+    }
+    form > #email {
+        position: relative;
+        left: -773px;
+        top: -113px;
+    }
+    header {
+        position: relative;
+        left: 250px;
+    }
+    #bigdiv {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #div1 {
+        position: relative;
+        left: -40px;
+    }
+    #div2 {
+        position: relative;
+        right: 90px;
+    }
+    #div3 {
+        position: relative;
+        right: 160px;
+    }
+    #thebiggestdiv {
+        position: relative;
+        left: 250px;
+    }
+}
+@media only screen and (min-width: 2732px) {
+    form > button {
+        position: relative;
+        left: -1172px;
+        top: -22px;
+    }
+}
+@media only screen and (max-width: 1115px) {
+    header {
+        position: relative;
+        left: -80px;
+    }
+    form > #Subject {
+        position: relative;
+        left: 660px;
+        bottom: 318px;
+        width: 340px;
+    }
+    form > #fullname {
+        position: relative;
+        left: 292px;
+        width: 340px;
+        bottom: 236px;
+    }
+    form > #email {
+        position: relative;
+        left: 660px;
+        bottom: 213px;
+        width: 340px;
+    }
+    form > button {
+        position: relative;
+        left: 290px;
+        width: 366px;
+        bottom: 123px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    header > p {
+        position: relative;
+        left: -100px;
+    }
+    #heading1 {
+        position: relative;
+        left: -100px;
+    }
+    form > textarea {
+        position: relative;
+        left: -100px;
+        max-width: 370px;
+        max-height: 200px;
+    }
+    form > #Subject {
+        position: relative;
+        left: -100px;
+        top: 10px;
+    }
+    form > #fullname {
+        position: relative;
+        left: -100px;
+        top: 23px;
+    }
+    form > #email {
+        position: relative;
+        left: -100px;
+        top: 37px;
+    }
+    form > button {
+        position: relative;
+        left: -100px;
+        top: 50px;
+    }
+    #bigdiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main {
+        position: relative;
+        left: -100px;
+    }
+    #divbigger {
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+        position: relative;
+        left: 40px;
+    }
+    #divbigger > img {
+        position: relative;
+        margin-bottom: 30px;
+    }
+    #div5 {
+        position: relative;
+        left: -605px;
+        top: 300px;
+    }
+    #div7 {
+        position: relative;
+        left: -690px;
+        top: 300px;
+    }
+    #div9 {
+        position: relative;
+        left: -750px;
+        top: 260px;
+    }
+}
